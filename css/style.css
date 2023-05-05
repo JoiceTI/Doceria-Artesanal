@@ -7,7 +7,7 @@
     --secundaria: #868686;
     --terciaria: #eff3f4;
     --qurta: #f5d4d5;
-    --texto-primario:  #fff;
+    --texto-primario: #fff;
     --texto-secundario: #191919;
 }
 
@@ -31,7 +31,7 @@ input[type="submit"] {
 }
 
 #header {
-    min-height: 90vh;
+    min-height: 80vh;
     background-image: url("../img/bolo2.jpg");
     background-size: cover;
     background-position: center;
@@ -196,8 +196,8 @@ input[type="submit"] {
 
 .servico-ext-info {
     background-color: var(--terciaria);
-    padding: 2rem 1.4rem;
-    min-height: 250px;
+    padding: 1rem 1.2rem;
+    min-height: 150px;
     margin-top: -3rem;
     z-index: 2;
     position: relative;
@@ -370,7 +370,6 @@ input[type="submit"] {
 #contato {
     background-color: var(--qurta);
     gap: 0;
-    padding-bottom: 5rem;
 }
 
 #contato-info {
@@ -427,13 +426,10 @@ input[type="submit"] {
     background-color: var(--);
     display: flex;
     justify-content: space-around;
-    padding: 3rem 3rem 5rem;
+    padding: 2rem 2rem 2rem;
 }
 
-#rodape i {
-    font-size: 1rem;
-    padding: 0.3rem;
-}
+
 
 /* #rodape a {
     color: var(-);
@@ -660,7 +656,7 @@ input[type="submit"] {
     }
 
     #contato-info {
-        padding: 7rem 1rem;
+        padding: 1rem 1rem;
     }
 
     #contato-info .form-controle {
